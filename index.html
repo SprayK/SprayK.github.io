@@ -1,1 +1,95 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--    Add meta tag for mobile devices -->
+
+    <!--
+   Filename: index.html
+   Author:   Karson Spray (SprayK)
+   Date:     2023-04-22
+   Purpose:
+   -->
+    <title>Projects</title>
+    <!--    Add Bootstrap CSS and JavaScript (could add JavaScript at end) -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+          crossorigin="anonymous">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <style>
+        body {
+            padding-top: 6em;
+        }
+        .navbar-brand img {
+            max-height: 2em;
+            margin-top: -0.6em;
+        }
+    </style>
+</head>
+<body>
+<!--    Menu -->
+
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top" >
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link active" href="#">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<div class="container">
+    <header class="text-uppercase pb-5">
+        <h1>Karson Spray</h1>
+        <p>Some projects I have worked on and created</p>
+    </header>
+
+    <main>
+        <section class="pb-5">
+            <h2>Urban Dictionary Copy</h2>
+            <div class="p-4">
+                <p>As a final project for our web development class myself and my partner Krishiv Soni decided to recreate the Urban Dictionary website.
+                We used Vue.js as a front end and an express backend as well as a SQL database to accoplish this.</p>
+                <img src="images/UrbanDictionary.png" class="img-fluid" alt="UrbanDictionary Clone" />
+            </div>
+        </section>
+
+        <section class="pb-5">
+            <h2>Soccer Scheduler</h2>
+            <div class="row p-4">
+                <p class="col-md-4">This is a project that I helped to create while I was in my first year at Saskatchewan Polytechnic doing Computer Systems Technology.
+                We created this scheduler to help with scheduling soccer tournaments with the possibility of expanding to other soports later. I worked on this in a
+                group of 5 people.</p>
+                <img src="images/Scheduler.png" class="img-fluid col-lg-8" alt="Soccer Scheduler" />
+            </div>
+        </section>
+
+        <section>
+            <h2>Space Invaders</h2>
+            <div class="row p-4">
+                <p class="col-md-4">This is a game that I made for a Java programming class it's just a simple space invaders game.</p>
+                <img src="images/SpaceInvaders.png" class="img-fluid col-lg-4" alt="Soccer Scheduler" />
+            </div>
+        </section>
+    </main>
+
+</div>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+</html>
